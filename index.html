@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>S-Cargo</title>
+  </head>
+  <body>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="caps.html">Caps</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="row">
+        <div class="col md-6">
+          <div class="rounded jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">
+                Find The Accesories That Will Set You Apart
+              </h1>
+              <p class="lead">
+                Please use the search below to find images that may inspire you!
+                try terms like "roof rack", "seat cover", or anything related to
+                vehicle accesories.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col md-6">
+          <img
+            src="assets/images/truck.jpg"
+            class="rounded float-left"
+            alt="nathaniel"
+            width="300px"
+            height="300px"
+          />
+          <div class="card" class="float-right">
+            <div class="card-body">
+              <p>
+                S-cargo Trusk Caps is your number one source for toppers,
+                tonneau covers, roof racks, and auto accessoried in Northers
+                Colorado
+              </p>
+              <p>
+                We have been a family owned and operated company for three
+                generations. With a background in the industry dating back to
+                the 60’s, the family team at S-Cargo bring a level of knowledge
+                and experience to every job that can’t be matched.
+              </p>
+              <p>
+                We have been located in Loveland, Colorado for over 30 years.
+                While we are proud to be a part of the Loveland community, we
+                are happy to have customers up and down the entire front range,
+                including Fort Collins, Greeley, Longmont, Boulder, Cheyenne,
+                Laramie and beyond.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="search">
+      <input type="text" id="search" placeholder="search ideas" />
+      <button type="button" class="btn btn-dark" onclick="SearchPhotos()">
+        Search
+      </button>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="assets/javascript/app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</html>
